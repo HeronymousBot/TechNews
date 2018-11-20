@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         builder.scheme("https")
                 .authority("content.guardianapis.com")
                 .appendPath("search")
-                .appendQueryParameter("q", "tech")
+                .appendQueryParameter("q", "technology")
                 .appendQueryParameter("show-fields", "byline")
                 .appendQueryParameter("order-by", "newest")
                 .appendQueryParameter("api-key", apiKey);
